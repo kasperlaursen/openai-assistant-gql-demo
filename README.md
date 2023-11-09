@@ -12,7 +12,7 @@ This repository contains a SvelteKit application that integrates OpenAI's GPT wi
 
 ## Example
 
-![Kasper's AI Extension Banner](https://raw.githubusercontent.com/kasperlaursen/openai-assistant-gql-demo/main/example.png)
+![Example](https://raw.githubusercontent.com/kasperlaursen/openai-assistant-gql-demo/main/example.png)
 
 ## Getting Started
 
