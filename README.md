@@ -1,4 +1,5 @@
 ![Kasper's AI Extension Banner](https://raw.githubusercontent.com/kasperlaursen/openai-assistant-gql-demo/main/banner.png)
+
 # GraphQL and OpenAI Assistant Experiment
 
 This repository contains a SvelteKit application that integrates OpenAI's GPT with GraphQL to provide an interactive assistant experience. Users can ask questions about a GraphQL schema, and the assistant will provide responses.
@@ -8,6 +9,10 @@ This repository contains a SvelteKit application that integrates OpenAI's GPT wi
 - **GraphQL Integration**: Communicates with a GraphQL API to fetch and display data based on user queries.
 - **OpenAI Assistant**: Leverages OpenAI's API to understand and respond to user queries.
 - **Interactive UI**: Provides a chat-like interface for users to interact with the GraphQL assistant.
+
+## Example
+
+![Kasper's AI Extension Banner](https://raw.githubusercontent.com/kasperlaursen/openai-assistant-gql-demo/main/example.png)
 
 ## Getting Started
 
@@ -59,13 +64,13 @@ The full GraphQL schema is star-wars-swapi.graphql.
 ```
 
 3. **Update the Assistant ID**:
-In your code, ensure you have the correct `ASSISTANT_ID` set to link to your configured OpenAI assistant. This ID connects your code with the specific assistant instance trained for this task.
+   In your code, ensure you have the correct `ASSISTANT_ID` set to link to your configured OpenAI assistant. This ID connects your code with the specific assistant instance trained for this task.
 
 4. **Upload the GraphQL Schema**:
-Upload the `star-wars-swapi.graphql` schema file to your application's environment where the assistant can access it.
+   Upload the `star-wars-swapi.graphql` schema file to your application's environment where the assistant can access it.
 
 5. **Configure Tool Functions**:
-Utilize the `callWithQuery` function as a bridge between your assistant and the GraphQL API. This function should be defined to accept a `query` parameter, representing the GraphQL query to be executed against the Star Wars API.
+   Utilize the `callWithQuery` function as a bridge between your assistant and the GraphQL API. This function should be defined to accept a `query` parameter, representing the GraphQL query to be executed against the Star Wars API.
 
 Here's the JSON schema for the `callWithQuery` function for your reference:
 
@@ -84,7 +89,7 @@ Here's the JSON schema for the `callWithQuery` function for your reference:
 		"required": ["query"]
 	}
 }
-````
+```
 
 6. **Integrate with Code Interpreter and Retrieval Tools**:
    Make sure your setup includes a code interpreter for the dynamic execution of the code snippets and a retrieval mechanism to fetch information based on user requests.
