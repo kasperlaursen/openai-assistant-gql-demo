@@ -26,13 +26,13 @@ This repository contains a SvelteKit application that integrates OpenAI's GPT wi
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/graphql-openai-assistant.git
+git clone https://github.com/kasperlaursen/openai-assistant-gql-demo.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd graphql-openai-assistant
+cd openai-assistant-gql-demo
 ```
 
 3. Install dependencies:
@@ -116,13 +116,6 @@ Visit `http://localhost:3000` in your browser to view the application.
 
 Contributions are welcome! Please feel free to submit a pull request.
 
-## License
+## Attribution
 
-This project is open-source and available under the [MIT License](LICENSE).
-
-```
-
-Make sure to replace `https://github.com/your-username/graphql-openai-assistant.git` with the actual URL of your Git repository.
-
-This `README.md` provides a basic introduction to what the repository contains, how to get started, and how to use the application. Adjust as necessary to fit the specific details and requirements of your project.
-```
+Ui by: [v0.dev](https://v0.dev/t/wUdz4ISUZZp)
